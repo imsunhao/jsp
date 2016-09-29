@@ -1,3 +1,15 @@
-.footer { background: #555; color: #ccc; text-align: center; height: 40px; position: fixed; left: 0; bottom: 0; width: 100%; line-height: 40px; }
+#footer { background: #555; color: #ccc; text-align: center; height: 5%; position: fixed; left: 0; bottom: 0; width: 100%; }
+
+body, html { height: 100%; }
+
+#show { height: 20%; width: 800px; margin: 0 auto; }
+#show > input { border: none; width: 100%; height: 100%; display: block; text-align: right; font-size: 20px; font-weight: bolder; color: black; background: #f2f2f2; padding-right: 5%; }
+
+#btn { text-align: center; height: 70%; margin: 0 auto; }
+#btn ul { width: 100%; height: 20%; }
+#btn ul li { height: 100%; width: 25%; color: #000; font-size: 20px; background: #e6e6e6; float: left; }
+#btn ul li:hover { background: #cfcfcf; }
+#btn ul li input { width: 100%; height: 100%; border: none; background: #e6e6e6; padding: 0; float: left; }
+#btn ul li input:hover { background: #cfcfcf; }
 
 /*# sourceMappingURL=index.css.map */
